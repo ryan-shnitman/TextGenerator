@@ -1,0 +1,19 @@
+*** all text documents taken from gutenburg project ***
+
+My sources were:
+1. The Brothers Grimm Fairytales collection
+2. War and Peace
+
+I compared them to (and the results were):
+1. The Bible (Brothers Grimm)
+2. Alice and Wonderland (Brothers Grimm)
+3. Great Expectations (Brothers Grimm)
+4. Pride and Prejudice (War and Peace)
+5. Frankenstein (War and Peace)
+6. The Communist Manifesto (War and Peace)
+
+I think these results make sense, and are more or less what I would have predicted. The program could be improved
+by improving the stem detection algorithm (as is, it only considers suffixes, but I would have liked to adjust it to handle prefixes without making too many errors) as well as perhaps adjusting the manner in which the sim scores are
+weighted; I did it somewhat arbitrarily, but perhaps there is some kind of equation that could be derived that
+is more meaningful. In other words, a way to more definitively establish which characteristics are the best
+indicators of two texts being derived from the same source.
